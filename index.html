@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loan Application Form</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <h1>Apply for a Loan</h1>
+        <form>
+            <div class="form-group">
+                <label for="full-name">Full name as it appears on bank account</label>
+                <input type="text" id="full-name" name="full-name" required>
+            </div>
+            <div class="form-group">
+                <label for="loan-amount">How much do you need?</label>
+                <input type="number" id="loan-amount" name="loan-amount" required>
+            </div>
+            <div class="form-group">
+                <label for="loan-tenure">Loan tenure (in months)</label>
+                <input type="number" id="loan-tenure" name="loan-tenure" required>
+            </div>
+            <div class="form-group">
+                <label for="employment-status">Employment status</label>
+                <input type="text" id="employment-status" name="employment-status" required>
+            </div>
+            <div class="form-group">
+                <label for="loan-reason">Reason for loan</label>
+                <input type="text" id="loan-reason" name="loan-reason" required>
+            </div>
+           
+            <div class="form-group">
+                <label for="employment-address">Employment address</label>
+                <input type="text" id="employment-address" name="employment-address" required>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="credit-info" name="credit-info">
+                <label for="credit-info">Any personal and credit information obtained may be disclosed from time to time to other lenders, credit bureaus, or credit reporting agencies.</label>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I have read the important information and accept that by completing the application I will be bound by the terms.</label>
+            </div>
+            <div class="submit-button">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+
+       
+        <div class="chart-container">
+            <h2>Chart</h2>
+            <div id="chart"> </div>
+        </div>
+    </div>
+
+</body>
+</html>
